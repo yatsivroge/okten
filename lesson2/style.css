@@ -1,0 +1,39 @@
+body{
+    background-color: #f6eaa3;
+    font-family: "Arial";
+}
+
+h1,h2{
+    text-align: center;
+    color: #ec3e3e;
+
+}
+
+.fam{
+    height: 300px;
+    width: 200px;
+}
+
+p{
+    font-size: 20px;
+    margin: 20px;
+    color: #ec3e3e;
+}
+img{
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+.container{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 30px;
+}
+.footer{
+    text-align: center;
+    margin: 30px;
+}
