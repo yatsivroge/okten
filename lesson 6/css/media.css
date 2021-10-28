@@ -46,4 +46,159 @@
         line-height: 20px
     }
 
+    .site__intro {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+
+    .about__cafe{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cafe__story p{
+        width: 341px;
+    }
+    .cafe__numbers_container{
+        flex-direction: column;
+        row-gap: 41px;
+        text-align: center;
+    }
+
+    .image1{
+        left: 45px;
+    }
+    .image1 img{
+        width: 125.36px;
+        height: 154.86px;
+
+    }
+    .image2 img{
+        width: 137.2px;
+        height: 221.97px;
+    }
+
+    .image3 img{
+        width: 137.2px;
+        height: 160px;
+    }
+
+    .image3{
+        right: 80px;
+        top: 100px;
+    }
+
+    .image__container{
+        margin-top: 40px;
+    }
+
+    .cafe__banner_container{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 80px 0 104px 0;
+    }
+
+    .banner__headline{
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .banner__text{
+        width: 209px;
+    }
+
+    .banner__btn{
+        margin-right: 0;
+    }
+    .banner__parg{
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 235px;
+    }
+
+    .food__headline{
+        width: 150px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .food__info{
+        display: flex;
+        flex-direction: column;
+    }
+    .food__pizza img{
+        width: 100%;
+    }
+
+    .menu__items span{
+        display: none;
+    }
+
+    .food__menu{
+        margin: 20px 10px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    .hamb__desc{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .bar__card:nth-child(2){
+        display: none;
+    }
+    .bar__card:nth-child(3){
+        display: none;
+    }
+
+    .cafe__bard__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .gallary h2{
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .grid__menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .grid__menu > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .grid__menu > div > img{
+        width: 100%;
+    }
+
+
+    .worker > h2 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .worker__foto{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
 }
