@@ -1,0 +1,266 @@
+@media screen and (max-width: 400px) {
+    .wrapper {
+        max-width: 320px;
+    }
+
+    .header__right {
+        display: none;
+    }
+
+    .l2 {
+        display: none;
+    }
+    .media {
+        display: block;
+    }
+
+    .contact_info {
+        padding-top: 10px;
+    }
+
+    .time__info {
+        display: none;
+    }
+
+    .location__info {
+        display: none;
+    }
+
+    .media_whatsapp {
+        flex-direction: column-reverse;
+        row-gap: 1rem;
+    }
+
+    .number__num {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .number__text a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .logo__info img{
+        width: 50px;
+    }
+
+    .lg_name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .lg_desc{
+        font-size: 11px;
+        width: 120px;
+    }
+
+    .hamb__text span{
+        display: none;
+    }
+
+    .whatsapp_btn a{
+        font-size: 8px;
+        line-height: 10px;
+        text-align: center;
+    }
+
+    .whatsapp_btn{
+        border-radius: 2px;
+        height: 1.2rem;
+        padding: 0 .5rem;
+    }
+
+    .button-c{
+        display: block;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .user__enter {
+        display: none;
+    }
+
+    .user__fav {
+        display: none;
+    }
+
+    .user__cart {
+        display: none;
+    }
+
+    .serching__form{
+        width: 180px;
+        padding: 1rem;
+    }
+
+    .serch button{
+        width: 50px;
+    }
+    .serching button span {
+        display: none;
+    }
+
+    .serch_img {
+        display: block;
+        width: 14px;
+    }
+
+    .catalog {
+        width: 25px;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        row-gap: 1rem;
+    }
+
+    .main__banner{
+        width: 100%;
+    }
+
+    .banner__info{
+        margin: 1rem;
+    }
+
+    .banner__info h2{
+        font-size: 15px;
+        line-height: 19px;
+        margin-top: 0.2rem;
+    }
+
+    .banner__info h3{
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: .6rem;
+    }
+    .banner__info .price{
+        font-size: 25px;
+        line-height: 26px;
+        padding-top: 10px;
+    }
+
+    .banner__info .price span{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .banner__img img {
+        width: 131px;
+    }
+
+    .banner__btn{
+        margin-top: 0;
+    }
+
+    .bn_media {
+        display: none;
+    }
+
+    .banner__card {
+        margin-left: 0;
+    }
+    .media__buttons {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        column-gap: 2rem;
+    }
+
+    .media__buttons p {
+        font-family: 'Roboto' , sans-serif;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #0F2438;
+    }
+
+    .pr__column h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .pr__img img {
+        width: 74px;
+    }
+
+    .pr__column p {
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+
+    .products__columns {
+        overflow: hidden;
+    }
+    .catalog__buttons {
+        justify-content: center;
+    }
+    .catalog__buttons button{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .catalog__grid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .media_img {
+        width: 150px;
+    }
+
+    .cataog__card h2 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .ct__btn button {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+
+    .media_group {
+        display: none;
+    }
+
+    .catalog__button-center {
+        display: flex;
+        justify-content: center;
+    }
+    .catalog__button-center button{
+        font-size: 12px;
+        line-height: 14px;
+        padding: .5rem 1.3rem;
+        border: 2px solid #005BB9;
+        padding: .5rem 2rem;
+    }
+    .bottom_info_boxes {
+       flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .bottom_content {
+        display: none;
+    }
+
+    .content__colums {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .ft__columns-two {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .created {
+        border-top: 1px solid #737E9B;
+    }
+}
